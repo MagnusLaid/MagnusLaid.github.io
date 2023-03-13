@@ -1,0 +1,136 @@
+body {
+    background-color: beige;
+}
+
+p {
+    color: black
+
+}
+
+/* Kommentaarid */
+
+    .clientcolor  {
+        color: brown; /* Tekstina */ 
+        background-color: rgba(red, green, blue, alpha);
+        
+ }
+
+
+    .clientcolor2 {
+        color: #FFBF00; /* HEX */
+         
+}
+
+/* Kommentaar
+# tähendab ID
+. tähendab class
+*/
+
+    #customerID {
+        font-size: 25px; /* TEXTI SUURUS */
+    }
+
+    #customerID2 {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .extracolor {
+        color: crimson
+    }
+
+    .div1, .div2 {
+        height: 70px;
+        /* Overflor: Hidden; */
+        overflow: scroll;
+    }
+
+    .div2 {
+        background-color: grey;
+    }
+
+    .div1 {
+        background-color: rgba(44, 19, 70, 0.697);
+    }
+
+    .border {
+        border-style: solid;
+        border-color: darkgoldenrod;
+    }
+
+    .border2 {
+        border-right-style: solid;
+    } 
+
+    table {
+        font-size: larger;
+    }
+
+    th, td {
+        border-style: dotted;
+    }
+
+    .div3 {
+        position: static;
+        left: 50px;
+    }
+
+    .div4 {
+        position: relative;
+        left: 50px;
+        top: 20px;
+        background-color: aliceblue;
+        z-index: 11;
+    }
+
+    .div5 {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background-color: antiquewhite;
+
+    }
+
+    .div6 {
+        background-color: burlywood;
+        position: sticky;
+        top: 100px;
+        width: 200px;
+        z-index: 10; /* Z-index algab 0'ga, aga mis on allpool, see on eespool */
+    }
+
+    img {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .juku2 {
+        opacity: 0.2;
+    }
+
+    .juku3 {
+        display: none;
+    }
+
+    .lastDIV {
+        height: 200px;
+        background-color: grey;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .inside {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+
+    .inside2 {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+    }
+
+
+
+
