@@ -1,0 +1,54 @@
+.item1 {
+    grid-area: area1;
+    background-color: rgb(21, 128, 221);
+    line-height: 100px;
+    text-align: center;
+   
+}
+
+.item2 {
+    grid-area: area2;
+    background-color: rgb(231, 137, 14);
+    line-height: auto;
+    width: 150px;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+
+.customDiv1 {
+    grid-area: area2;
+    font-style: inherit;
+    border-bottom-style: double;
+    color: rgb(213, 49, 24);
+    
+}
+
+.customDiv2 {
+    grid-area: area1;
+    
+
+}
+
+.item3 {
+    grid-area: area3;
+    background-color: aqua;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.container {
+    display: grid;
+    background-color: aquamarine;
+    /*grid-template-areas:
+    '1 1 1 1 1'
+    '2 3 3 3 3' ;*/
+    grid-template-areas:
+    'area1 area1 area1 area1 area1'
+    'area2 area3 area3 area3 area3';
+    
+}
+
+
