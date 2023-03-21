@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(-45deg, #0c6fda, #a8c72b, #d27130, #e05003);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 10px;
+}
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.customDiv1 {
+    height: 100px; 
+    width: 100%;
+    font-size: 80px;
+    background-image: linear-gradient(rgba(136, 136, 176, 0.291), rgb(51, 93, 167));
+    border-radius: 5px;
+    border-style: double;
+}
+
+.customDiv2 {
+    background-color: rgba(127, 129, 255, 0.253);
+    border-radius: 20px;
+
+}
+
+.customDiv3 {
+    background-color: rgba(109, 130, 235, 0.223);
+    border-radius: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    filter: drop-shadow(100%);
+    transition: all 0.2s ease-in-out;
+    margin: 10px;
+}
+
+.card:hover {
+    filter: drop-shadow(100%);
+  }
+
+  a:hover {
+    color: rgb(243, 238, 236);
+} 
+
+ul {
+    list-style-type: circle;
+    padding: 20px;
+    font-style: italic;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(6, 2, 10);
+    text-transform: lowercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    padding-left: 100px;
+    font-style: italic;
+}
+
+.content-text {
+    text-align: justify;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.heading-text {
+    padding-left: 100px;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+         padding: 1px;
+    }
+
+    .customDiv2 {
+        flex: 100%;
+        height: 80% 
+    }
+
+    ul {
+        padding: 10px;
+        text-align: left;
+    }
+
+    ul > li {
+        display: inline;
+    }
+
+    .customDiv3 {
+        flex: 100%;
+    }
+
+    .card-container {
+       display: flex; 
+     
+    }
+
+  
+}
+
+@media only screen and (min-width: 600px) {
+
+    .container {
+        display: flex;
+    }
+
+    .customDiv2 {
+        flex: 10%;
+    }
+
+    .customDiv3 {
+        flex: 75%;
+        flex-grow: 11;
+        height: 80vh;
+        overflow: auto;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+
+    .card-container {
+        background-blend-mode: soft-light;
+    }
+
+
+
+}
